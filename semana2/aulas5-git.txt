@@ -1,0 +1,11 @@
+Comandos vistos no https://learngitbranching.js.org/
+
+git commit
+
+git branch [nome]
+git checkout [nome do commit]
+git merge [nome]
+git rebase
+git log
+
+:wp --> Aprendi na aula quando esquecer o -m do commit
