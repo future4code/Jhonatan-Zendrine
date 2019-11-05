@@ -1,0 +1,51 @@
+ 1  cd ~
+    2  ls
+    3  cd Desktop/"projeto future4"/Aulas/aula1/assassinato-na-linha-de-comando
+    4  ls
+    5  cat inicio
+    6  cat README.md
+    7  ls
+    8  cd misterio
+    9  l
+   10  ls
+   11  Grep "PISTA
+   12  grep "PISTA" cena-do-crime
+   13  head -n 25 pessoas
+   14  grep "Annabel" pessoas
+   15  head -n 40 ruas/Vila_Hart | tail -n 1
+   16  head -n 173 Rua_Mattapan | tail -n 1
+   17  head -n 173 ruas/Rua_Mattapan | tail -n 1
+   18  head -n 179 ruas/Vila_Buckingham | tail -n 1
+   19  head -n 176 ruas/Rua_Haley | tail -n 1
+   20  ls
+   21  cd entrevistas
+   22  ls
+   23  cat entrevista-47246024
+   24  cat entrevista-9437737
+   25  cat entrevista-699607
+   26  cat entrevista-871877
+   27  cd ..
+   28  ls
+   29  head -n 20 automoveis
+   30  grep -A 5 "L337" automoveis
+   31  ls
+   32  cd associacoes
+   33  ls
+   34  cat AAA Delta_SkyMiles Museu_da_História_do_Bash Biblioteca_da_Cidade | grep "Erika Owens"
+   35  cat AAA Delta_SkyMiles Museu_da_História_do_Bash Biblioteca_da_Cidade | grep -c "Erika Owens"
+   36  cat AAA Delta_SkyMiles Museu_da_História_do_Bash Biblioteca_da_Cidade | grep -c "Aron Pilhofer"
+   37  cat AAA Delta_SkyMiles Museu_da_História_do_Bash Biblioteca_da_Cidade | grep -c "Heather Billings"
+   38  cat AAA Delta_SkyMiles Museu_da_História_do_Bash Biblioteca_da_Cidade | grep -c "Joe Germuska"
+   39  cat AAA Delta_SkyMiles Museu_da_História_do_Bash Biblioteca_da_Cidade | grep -c "Jeremy Bowers"
+   40  cat AAA Delta_SkyMiles Museu_da_História_do_Bash Biblioteca_da_Cidade | grep -c "Jacqui Maher"
+   41  cd ..
+   42  ls
+   43  grep -A 3 "Jeremy Bowers" pessoas
+   44  grep -A 3 "Jacqui Maher" pessoas
+   45  head -n 284 ruas/Travessa_Dunstable | tail -n 1
+   46  head -n 224 ruas/Travessa_Andover | tail -n 1
+   47  ls
+   48  cd entrevistas
+   49  cat entrevista-9620713
+   50  cat entrevista-904020
+   51  history
