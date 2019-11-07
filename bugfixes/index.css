@@ -43,7 +43,7 @@ div>p:first-child {
 }
 
 div img {
-    background: white;
+    background: black;
 }
 
 .botao-amarelo {
@@ -175,4 +175,10 @@ td button:hover {
 .tamanho{
     width: 50px;
     height: 50px;
+}
+.icone:hover{
+    background-color: #c4ad31;
+}
+.icone:active{
+    background-color: white;
 }
