@@ -79,7 +79,11 @@ div img {
 }
 
 #container-de-descricao>ol {
-    padding: 15px 0px;
+    padding: 0px 0px 3px 0px;
+    width: 210px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #container-para-comprar {
@@ -95,7 +99,7 @@ div img {
 #container-de-descricao>p{
     padding: 70px 0 0 0;
     width: 210px;
-    height: 200px;
+    height: 100px;
     margin-left: auto;
     margin-right: auto;
 }
