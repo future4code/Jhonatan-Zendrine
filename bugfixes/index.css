@@ -25,9 +25,13 @@ input {
     border-left: transparent;
     border-bottom: 3px solid black;
 }
+input:focus{
+    outline: none;
+}
+
 
 button:focus {
-    color: white;
+    outline: none;
 }
 
 img {
@@ -54,6 +58,7 @@ div img {
 .botao-amarelo:hover {
     background-color: #c44f00;
 }
+
 
 .container {
     height: 500px;
@@ -84,9 +89,6 @@ div img {
     height: 100px;
     margin-left: auto;
     margin-right: auto;
-}
-li{
-    margin-left: 30px;
 }
 
 #container-para-comprar {
@@ -169,7 +171,7 @@ td button:hover {
 }
 #back-button:active {
     color: white;
-} 
+}
 .tamanho{
     width: 50px;
     height: 50px;
