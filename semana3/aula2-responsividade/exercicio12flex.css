@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    width: 100%;
+    height: 50vw;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.top{
+    width: 100%;
+    height: 7vw;
+    background-color: red;
+    
+}
+.item{
+    width: 100%;
+    height: 7vw;
+    /* background-color: thistle; */
+    border: gray solid 3px;
+}
+.item123{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    background: black;
+}
+.item456{
+    display:flex;
+    width: 100%;
+    background: black;
+    flex-direction: column;
+}
+.item78{
+    display:flex;
+    width: 100%;
+    background: black;
+    color: white;
+    flex-direction: column;
+}
+.item9{
+    display:flex;
+    width: 100%;
+    background: black;
+    flex-direction: column;
+}
+#item1{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#item2{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#item3{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#item4{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#item5{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#item6{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#item7{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vw;
+}
+#item8{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vw;
+}
+#item9{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#item10{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#item11{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sumir{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    margin-right: 50px;
+}
+#sumir2{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+}
+
+
+
+
+@media screen and (min-width: 450px){
+    .item123{
+        flex-direction: row;
+    }
+    .item456{
+        flex-direction: row;
+    }
+    .item78{
+        flex-direction: row;
+    }
+    .item9{
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width: 800px) {
+    .item123{
+        flex-direction: row;
+        }
+    .item456{
+        flex-direction: row;
+    }
+    .item78{
+        flex-direction: row;
+    }
+    .item9{
+        flex-direction: row;
+    }
+    #item3{
+        display: none;
+    }
+    #item6{
+        display: none;
+    }
+    #item11{
+        display: none;
+    }
+    #sumir{
+        display: flex;
+        flex-direction: row;
+    }
+    #sumir2{
+        display: flex;
+        flex-direction: row;
+    }
+}
