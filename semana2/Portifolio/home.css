@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    font-size: 20px;
+}
+.cabecalho ul{
+    text-align: center;
+    list-style: none;
+    width: 100%;
+    display: flex;
+}
+
+.cabecalho ul li{
+    padding: 20px 0 20px 0;
+    flex-grow: 1;
+    border: solid 1px transparent;
+}
+.cabecalho ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+
+}
+#item1 {
+    background-color: #DCDCDC;
+}
+#item2 {
+    background-color: #DCDCDC;
+}
+#item3 {
+    background-color: #DCDCDC;
+}
+#item4 {
+    background-color: #DCDCDC;
+}
+.cabecalho ul li:hover{
+    border: solid 3px #DCDCDC;
+    opacity: 30%;
+    cursor: pointer;
+}
+
+@media (max-width: 800px){
+    .cabecalho ul{
+        display: block;
+    }
+}
+
+.imagem {
+    text-align: center;
+    width: 100%;
+    /* height: 200px; */
+    border: solid 3px black;
+}
+.imagem h1{
+    padding: 20px;
+    font-size: 40px;
+    font-family: monospace;
+    border: blanchedalmond solid 1px;
+    background: #CDC9C9;
+}
+.imagem p{
+    padding: 30px 0 0 0;
+    width: 500px;
+    margin: auto;
+}
+.rodape{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #CDC9C9;
+    color: black;
+    text-align: right;
+}
+
+.voltar{
+    width: 100%;
+    /* position: relative; */
+    top: 0;
+    background-color: #CDC9C9;
+    color: black;
+    text-align: right;    
+}
+.voltar a{
+    text-decoration: none;
+    color: black;
+}
+
+.social{
+    text-align: center;
+}
+
+.voltar button{
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    border: chocolate solid 2px;
+}
+.social h1{
+    padding: 40px 0 40px 0;
+}
+.social table{
+    border-spacing: 0px;
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    color: black;
+    font-size: 45px;
+}
+.social table a{
+    text-decoration: none;
+    color: black;
+}
+.social img{
+    width: 35px;
+    height: 35px;
+}
+
+.contato{
+    text-align: center;
+}
+
+.contato form{
+    /* display: block; */
+    text-align: left;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+
+}
+.contato label{
+    display: block;
+    font-size: 30px;
+    /* margin: auto; */
+}
+.contato input{
+    border: solid 2px black;
+    width: 500px;
+    height: 30px;
+    font-size: 25px;
+}
+.contato h1{
+    padding: 40px 0 40px 0;
+    font-size: 50px;
+}
+
+.cursos{
+    text-align: center;
+}
+
+.cursos h1{
+    padding: 40px 0 40px 0;
+    font-size: 35px;
+}
+
+.cursos ul{
+    width: 500px;
+    height: 200px;
+    text-align: left;
+    margin: auto;
+    font-size: 20px;
+}
+.cursos ul li{
+    padding: 0 0 10px 15px;
+    margin: 10px;
+}
+
+.projetos{
+    text-align: center;
+}
+.projetos h1{
+    padding: 50px 0 50px 0;
+    font-size: 60px;
+}
+.projetos img{
+    width: 100px;
+    height: 100px;
+}
+.projetos table{
+    border-spacing: 0px;
+    width: 100%;
+    height: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.projetos tr{
+    font-size: 45px;
+    color: black;
+}
+.projetos a{
+    text-decoration: none;
+    color: black;
+}
+
+#center{
+    text-align: center;
+}
+.projetoseletivo{
+    text-align: center;
+}
+.projetoseletivo h1{
+    padding: 50px 0 50px 0;
+}
+.projetoseletivo table{
+    border-spacing: 0px;
+    width: 100%;
+    height: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.projetoseletivo tr{
+    padding: 20px 0 0 0;
+}
+.projetoseletivo td{
+    width: 250px;
+    padding: 20px 0 0 0;
+    text-align: left;
+}
+.projetoseletivo td img{
+    width: 200px;
+    height: 200px;
+}
+
+
