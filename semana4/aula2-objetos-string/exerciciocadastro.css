@@ -1,0 +1,12 @@
+label{
+    display: block;
+}
+input{
+    display: block;
+}
+button{
+    margin: 15px 0 0 0;
+}
+h1{
+    text-align: center;
+}
